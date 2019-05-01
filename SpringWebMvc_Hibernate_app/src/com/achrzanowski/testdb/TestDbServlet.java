@@ -18,16 +18,8 @@ import java.sql.*;
 public class TestDbServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-	/*	String user = "mvc_db_remote_user";
-		String password = "mvcdbuser";
-		
-		String jdbcUrl = "jdbc:mysql://25.70.108.167/mvc_hb_database?useSSL=false";
-		String driver = "com.mysql.jdbc.Driver"; */
 		
 		String user = "****";
 		String password = "****";
